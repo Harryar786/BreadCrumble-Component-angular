@@ -1,0 +1,39 @@
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .breadcrumb li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .breadcrumb a {
+    text-decoration: none;
+    color: #3f51b5;
+    cursor: pointer;
+  }
+  
+  .breadcrumb a.active {
+    color: #3f51b5;
+    font-weight: bold;
+  }
+  
+  .breadcrumb a:not(.active) {
+    color: #757575;
+    pointer-events: none;
+  }
+  
+  .breadcrumb mat-icon {
+    font-size: 16px;
+    margin: 0 8px;
+    color: #757575;
+  }
+  
+  .breadcrumb span {
+    font-weight: bold;
+    color: #212121;
+  }
